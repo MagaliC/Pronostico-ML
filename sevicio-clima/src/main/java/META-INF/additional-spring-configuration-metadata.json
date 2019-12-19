@@ -1,0 +1,67 @@
+{"properties": [
+  {
+    "name": "spring.mybatis.configuration.map-underscore-to-camel-case",
+    "type": "java.lang.String",
+    "description": "It enables mybatis to automatically map from underscore to camel case."
+  },
+  {
+    "name": "spring.datasource.jdbc-url",
+    "type": "java.lang.String",
+    "description": "My batis sometimes needs the connection string for duplicated here and at 'spring.datasource.url'"
+  },
+  {
+    "name": "spring.datasource.maximum-pool-size",
+    "type": "java.lang.String",
+    "description": "com.zaxxer.hikari.HikariConfig.maxPoolSize"
+  },
+  {
+    "name": "spring.datasource.connection-test-query",
+    "type": "java.lang.String",
+    "description": "com.zaxxer.hikari.HikariConfig.connectionTestQuery"
+  },
+  {
+    "name": "spring.datasource.pool-name",
+    "type": "java.lang.String",
+    "description": "com.zaxxer.hikari.HikariConfig.poolName"
+  },
+  {
+    "name": "spring.datasource.leak-detection-threshold",
+    "type": "java.lang.String",
+    "description": "com.zaxxer.hikari.HikariConfig.leakDetectionThreshold"
+  },
+  {
+    "name": "pronostico.anguloInicialF",
+    "type": "java.lang.String",
+    "description": "Posición angular del planeta 'F' cuando comienza la simulación."
+  },
+  {
+    "name": "pronostico.anguloInicialV",
+    "type": "java.lang.String",
+    "description": "Posición angular del planeta 'V' cuando comienza la simulación."
+  },
+  {
+    "name": "pronostico.anguloInicialB",
+    "type": "java.lang.String",
+    "description": "Posición angular del planeta 'B' cuando comienza la simulación."
+  },
+  {
+    "name": "pronostico.velocidadAngularF",
+    "type": "java.lang.String",
+    "description": "Velocidad angular del planeta 'F'. Cuantos grados recorre por día."
+  },
+  {
+    "name": "pronostico.velocidadAngularV",
+    "type": "java.lang.String",
+    "description": "Velocidad angular del planeta 'V'. Cuantos grados recorre por día."
+  },
+  {
+    "name": "pronostico.velocidadAngularB",
+    "type": "java.lang.String",
+    "description": "Velocidad angular del planeta 'B'. Cuantos grados recorre por día."
+  },
+  {
+    "name": "pronostico.cantidadDeDias",
+    "type": "java.lang.String",
+    "description": "Cantidad de dias que correra la simulación. Deberia ser la cantidad de dias en 10 años."
+  }
+]}
